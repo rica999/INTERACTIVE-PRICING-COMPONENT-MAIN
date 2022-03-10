@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERACTIVE PRICING COMPONENT MAIN</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="description-text">
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up our 30-day trial. No credit card required</p>
+        </div>
+        <div class="description-pricing">
+            <div class="pricing-header">
+                <p id="pageviews">100K PAGEVIEWS</p>
+                <div class="mount-pricing-desktop">
+                    <span>$</span>
+                    <span id="price1">16</span>
+                    <span>.00</span>
+                    <p>/ month</p>
+                </div>
+            </div>
+            <div class="bar-type-pricing">
+                <input type="range" min="0" max="100" step="25" id="bartype">
+            </div>
+            <div class="mount-pricing-mobile">
+                <span>$</span>
+                <span id="price2">16</span>
+                <span>.00</span>
+                <p>/ month</p>
+            </div>
+            <div class="type-pricing">
+                <p>Monthly Billing</p>
+                <div class="type-pricing-check">
+                    <input type="checkbox" id="check">
+                    <span class="slider"></span>
+                </div>
+                <p>Yearly Billing</p>
+                <p class="percent-mobile">-25%</p>
+                <p class="percent-desktop">25% discount</p>
+            </div>
+            <div class="characterist-page">
+                <ul>
+                    <li>
+                        <img src="images/icon-check.svg" alt="icon-check">
+                        <p>Unlimited websites</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-check.svg" alt="icon-check">
+                        <p>100% data ownership</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-check.svg" alt="icon-check">
+                        <p>Email reports</p>
+                    </li>
+                </ul>
+                <button>Start my trial</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
